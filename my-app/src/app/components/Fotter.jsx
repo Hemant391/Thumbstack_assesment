@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Fotter() {
   return (
-    <footer className="bg-[#f4ff52] text-black px-4 py-10 animate-fade-in">
+    <footer className="bg-[#f4ff52] text-black  pt-10 animate-fade-in">
         <h3 className="text-xl font-semibold mb-2">Subscribe to our Newsletter</h3>
         <p className="mb-4 text-sm">
           Follow our progress on building for Europeans, by Europeans.
@@ -18,7 +18,7 @@ export default function Fotter() {
           </button>
         </div>
 
-        <div className="bg-black text-white mt-10 p-6 grid grid-cols-2 md:grid-cols-4 gap-4 text-sm">
+        <div className="bg-black p-6 text-white mt-10  grid grid-cols-2 md:grid-cols-4 gap-4 text-sm">
           <div>
             <h4 className="font-bold mb-2">Products</h4>
             <ul className="space-y-1">

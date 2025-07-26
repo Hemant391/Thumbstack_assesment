@@ -4,7 +4,7 @@ export default function Hero() {
   return (
       <header className="text-center py-10 px-4 animate-fade-in">
         <nav className="flex justify-center gap-4 text-xs font-semibold underline">
-          {["STAGE 1", "STAGE 2", "STAGE 3", "STAGE 4", "STAGE 5"].map((stage) => (
+          {["Products", "Roadmap", "Our mission", "For devs", "Contact us"].map((stage) => (
             <a
               key={stage}
               href="#"
